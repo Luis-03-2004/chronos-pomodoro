@@ -7,7 +7,8 @@ export function App() {
   console.log("Opa");
   return (
     <div>
-      <Heading />
+      <Heading attr={123} attr2="String">Olá mundo! 1</Heading>
+
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, atque
         vitae, aspernatur expedita iusto exercitationem qui tempore
